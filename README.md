@@ -1,4 +1,4 @@
-# Movie-api
+# Movie-Backend
 Sample movie listing Application
 # Features
   - User login,Signup and User CRUD
