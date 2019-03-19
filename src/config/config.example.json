@@ -1,0 +1,68 @@
+{
+  "development": {
+    "server": {
+      "port": "3000"
+    },
+    "database": {
+      "connection": {
+        "user": "",
+        "password": "",
+        "connectString": "mongodb://localhost:27017/movies_dev",
+        "poolSize": 10,
+        "useMongoClient": true,
+        "autoReconnect": true,
+        "socketTimeoutMS": 600000,
+        "connectTimeoutMS": 600000
+      },
+      "batchSize": 5000
+    },
+    "authorization": {
+      "secretKey": "9f3QhBrTVvZjFMqA2PbwEyXEDU2k76Br",
+      "secretKeyExpiresIn": 1
+    }
+  },
+  "test": {
+    "server": {
+      "port": "3000"
+    },
+    "database": {
+      "connection": {
+        "user": "",
+        "password": "",
+        "connectString": "mongodb://localhost:27017/movies_test",
+        "poolSize": 10,
+        "useMongoClient": true,
+        "autoReconnect": true,
+        "socketTimeoutMS": 600000,
+        "connectTimeoutMS": 600000
+      },
+      "batchSize": 5000
+    },
+    "authorization": {
+      "secretKey": "dfwindojksdfkjdshfs",
+      "secretKeyExpiresIn": 1
+    }
+  },
+  "production": {
+    "server": {
+      "port": "3000"
+    },
+    "database": {
+      "connection": {
+        "user": "",
+        "password": "",
+        "connectString": "mongodb://localhost:27017/movies",
+        "poolSize": 10,
+        "useMongoClient": true,
+        "autoReconnect": true,
+        "socketTimeoutMS": 600000,
+        "connectTimeoutMS": 600000
+      },
+      "batchSize": 5000
+    },
+    "authorization": {
+      "secretKey": "dkjlfkjsadfhiubmsdyukdnmsdfbukjmnm",
+      "secretKeyExpiresIn": 30
+    }
+  }
+}
