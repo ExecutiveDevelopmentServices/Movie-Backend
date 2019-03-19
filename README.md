@@ -13,7 +13,7 @@ Movie-api uses a number of open source projects to work properly:
 Movie-api requires [Node.js](https://nodejs.org/) v8+ to run.
 Install the dependencies and devDependencies and start the server.
 ```sh
-$ cd movie-api
+$ cd movie-backend
 ```
 Create a config.json file inside src/config like config.example.json
 
